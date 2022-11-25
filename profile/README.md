@@ -1,4 +1,4 @@
-This organization maintains repositories of Nimble packages based on certain modules from the Nim standard library with the associated original commit history. For the reasoning behind this, see https://github.com/nim-lang/RFCs/issues/473.
+This is a collection of Nimble packages based on certain modules from the Nim standard library with the commit history preserved. For the reasoning behind this, see https://github.com/nim-lang/RFCs/issues/473.
 
 <details>
 <summary>Info about applying commit history</summary>
