@@ -1,9 +1,6 @@
 This is a collection of Nimble packages based on certain modules from the Nim standard library with the commit history preserved. For the reasoning behind this, see https://github.com/nim-lang/RFCs/issues/473.
 
-<details>
-<summary>Info about applying commit history</summary>
-
-## How to create new repo from Nim module with commit history
+## How to create new repo from Nim module
 
 Based on [this stackoverflow](https://stackoverflow.com/a/11426261/10633874)
 
@@ -44,5 +41,3 @@ rm latest.patch
 ```
 
 Merge conflicts can happen in the "apply patch" stage. The `-3` option considers a 3-way merge, but this might not be possible for all commits. In such cases, manually adapt as much of the commit that is failing to merge, and then do `git add` and `git am --continue`. The commit will still be credited to the original commit authors.
-
-</details>
