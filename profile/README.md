@@ -1,3 +1,5 @@
+This organization maintains repositories of Nimble packages based on certain modules from the Nim standard library with the associated original commit history. For the reasoning behind this, see https://github.com/nim-lang/RFCs/issues/473.
+
 ## How to create new repo from Nim module with commit history
 
 Based on [this stackoverflow](https://stackoverflow.com/a/11426261/10633874)
